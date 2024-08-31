@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "axontechnologies",
+	"version": "${version}",
+	"name": "Axon Technologies",
+	"description": "Axon T.e.c.h.n.o.l.o.g.i.e.s., Also referred as Axon Technologies or axontechnologies adds new ores, armor with their own tool types, status effects, mobs, dimensions, and more. It is currently still being developed, so bugs may occur.",
+
+	"authors": [
+		"StickManM",
+		"CrownKing"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/axontechnologies",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/axontechnologies/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.stickmanm.axontechnologies.AxonTechnologies"
+		],
+		"fabric-datagen": [
+			"net.stickmanm.axontechnologies.AxonTechnologiesDataGenerator"
+		],
+		"client": [
+			"net.stickmanm.axontechnologies.AxonTechnologiesClient"
+		]
+	},
+	"mixins": [
+		"axontechnologies.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
