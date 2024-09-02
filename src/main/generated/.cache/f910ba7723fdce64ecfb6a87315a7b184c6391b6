@@ -1,0 +1,18 @@
+// 1.21.1	2024-09-02T14:37:55.5667003	Axon Technologies/Tags for minecraft:block
+5d07af7a660a414c613154a8d6db9894bbf5eb99 data\minecraft\tags\block\needs_diamond_tool.json
+62301cf6d453a64fc42d3f5458e36499ec16ea21 data\minecraft\tags\block\mineable\pickaxe.json
+76b42e0c6e2b8b1b9ee277a558abe733ff4b8014 data\minecraft\tags\block\dragon_immune.json
+0a178deb75ee5371e36f67da41ba4cf33d4242b7 data\minecraft\tags\block\slabs.json
+a7da00585a3efb86cdb8aecf0a2e4e1be2bdfc9f data\minecraft\tags\block\needs_iron_tool.json
+90d90de2f136a21206f8c054d27e4b1c8f5f177c data\minecraft\tags\block\walls.json
+f1197b4d8aacd0e549f5b51340d06c9292feb8b8 data\minecraft\tags\block\mineable\shovel.json
+0035c52a6ab0e67297611666c76864d7973340e1 data\minecraft\tags\block\stairs.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\block\mineable\axe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\block\mineable\hoe.json
+34451d9af4c991eb3a545b1e4578a4a20411c92e data\minecraft\tags\block\needs_stone_tool.json
+76b42e0c6e2b8b1b9ee277a558abe733ff4b8014 data\minecraft\tags\block\wither_immune.json
+f1197b4d8aacd0e549f5b51340d06c9292feb8b8 data\minecraft\tags\block\dirt.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\block\sword_efficient.json
+b61e4e852cafb15d5b781fec1ef25100957da41c data\minecraft\tags\block\trapdoors.json
+e769d5bcee0e9db6b5d2e2cf4ad09d4428f9bfc0 data\minecraft\tags\block\doors.json
+7af5675438603097394529a13edbceecd760967d data\minecraft\tags\block\logs.json

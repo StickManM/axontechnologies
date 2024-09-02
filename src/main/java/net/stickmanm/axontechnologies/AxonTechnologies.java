@@ -2,7 +2,9 @@ package net.stickmanm.axontechnologies;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.stickmanm.axontechnologies.block.ModBlocks;
+import net.stickmanm.axontechnologies.item.ModFuels;
 import net.stickmanm.axontechnologies.item.ModItemGroups;
 import net.stickmanm.axontechnologies.item.ModItems;
 import org.slf4j.Logger;
@@ -18,5 +20,7 @@ public class AxonTechnologies implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModFuels.registerModFuels();
 	}
 }
