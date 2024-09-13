@@ -2,10 +2,7 @@ package net.stickmanm.axontechnologies;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.stickmanm.axontechnologies.datagen.ModBlockTagProvider;
-import net.stickmanm.axontechnologies.datagen.ModLootTableProvider;
-import net.stickmanm.axontechnologies.datagen.ModModelProvider;
-import net.stickmanm.axontechnologies.datagen.ModRecipeProvider;
+import net.stickmanm.axontechnologies.datagen.*;
 
 public class AxonTechnologiesDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -13,6 +10,7 @@ public class AxonTechnologiesDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModModelProvider::new);

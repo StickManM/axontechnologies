@@ -91,10 +91,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DREADSTONE_NETHERITE_ORE)
                 .add(ModBlocks.DREADSTONE_DIAMOND_ORE)
-                .add(ModBlocks.THUNDERANIUM_PORTAL_FRAME)
+                .add(ModBlocks.THUNDERANIUM_PORTAL_FRAME);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.NEEDS_TOOL_LEVEL_4)
                 .add(ModBlocks.VOID_COAL_ORE)
                 .add(ModBlocks.DREADSTONE_THUNDERANIUM_ORE)
-                .add(ModBlocks.VOID_COAL_BLOCK)
+                .add(ModBlocks.VOID_COAL_BLOCK);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.NEEDS_TOOL_LEVEL_5)
+                .add(ModBlocks.THUNDERANIUM_ORE)
+                .add(ModBlocks.RENDERIUM_ORE);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.NEEDS_TOOL_LEVEL_6)
                 .add(ModBlocks.CORRUPTINITE_ORE)
                 .add(ModBlocks.DENDERIUM_ORE)
                 .add(ModBlocks.CORRUPTION_PORTAL_FRAME)
@@ -105,11 +113,44 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.REINFORCED_DREADSTONE_STAIRS)
                 .add(ModBlocks.REINFORCED_DREADSTONE_SLAB)
                 .add(ModBlocks.REINFORCED_DREADSTONE_WALL)
-                .add(ModBlocks.REINFORCED_DREADSTONE_GLASS)
+                .add(ModBlocks.REINFORCED_DREADSTONE_GLASS);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.NEEDS_TOOL_LEVEL_7);
+        getOrCreateTagBuilder(ModTagList.Blocks.NEEDS_TOOL_LEVEL_8);
+        getOrCreateTagBuilder(ModTagList.Blocks.NEEDS_TOOL_LEVEL_9);
+
+                getOrCreateTagBuilder(ModTagList.Blocks.NEEDS_TOOL_LEVEL_10)
                 .add(ModBlocks.TLDC_ORE)
                 .add(ModBlocks.MWDC_ORE)
                 .add(ModBlocks.CLDC_ORE)
                 .add(ModBlocks.DCDC_ORE);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.NEEDS_TOOL_LEVEL_11);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_5)
+                .addTag(ModTagList.Blocks.NEEDS_TOOL_LEVEL_6)
+                .addTag(ModTagList.Blocks.NEEDS_TOOL_LEVEL_7)
+                .addTag(ModTagList.Blocks.NEEDS_TOOL_LEVEL_8)
+                .addTag(ModTagList.Blocks.NEEDS_TOOL_LEVEL_9)
+                .addTag(ModTagList.Blocks.NEEDS_TOOL_LEVEL_10);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_6)
+                .addTag(ModTagList.Blocks.NEEDS_TOOL_LEVEL_7)
+                .addTag(ModTagList.Blocks.NEEDS_TOOL_LEVEL_8)
+                .addTag(ModTagList.Blocks.NEEDS_TOOL_LEVEL_9)
+                .addTag(ModTagList.Blocks.NEEDS_TOOL_LEVEL_10);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_7)
+                .addTag(ModTagList.Blocks.NEEDS_TOOL_LEVEL_8)
+                .addTag(ModTagList.Blocks.NEEDS_TOOL_LEVEL_9)
+                .addTag(ModTagList.Blocks.NEEDS_TOOL_LEVEL_10);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_10)
+                .addTag(ModTagList.Blocks.NEEDS_TOOL_LEVEL_11);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_INFINITE);
+
+
 
 
         getOrCreateTagBuilder(BlockTags.WITHER_IMMUNE)

@@ -1,0 +1,26 @@
+package net.stickmanm.axontechnologies.datagen;
+
+import net.minecraft.block.Block;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.tag.TagKey;
+import net.minecraft.util.Identifier;
+import net.stickmanm.axontechnologies.AxonTechnologies;
+
+public class ModTagList {
+    public static class Blocks {
+        public static final TagKey<Block> INCORRECT_FOR_TOOL_LEVEL_5 = TagKey.of(RegistryKeys.BLOCK, AxonTechnologies.id(("incorrect_for_tool_level_5")));
+        public static final TagKey<Block> INCORRECT_FOR_TOOL_LEVEL_6 = TagKey.of(RegistryKeys.BLOCK, AxonTechnologies.id(("incorrect_for_tool_level_6")));
+        public static final TagKey<Block> INCORRECT_FOR_TOOL_LEVEL_7 = TagKey.of(RegistryKeys.BLOCK, AxonTechnologies.id(("incorrect_for_tool_level_7")));
+        public static final TagKey<Block> INCORRECT_FOR_TOOL_LEVEL_10 = TagKey.of(RegistryKeys.BLOCK, AxonTechnologies.id(("incorrect_for_tool_level_10")));
+        public static final TagKey<Block> INCORRECT_FOR_TOOL_LEVEL_INFINITE = TagKey.of(RegistryKeys.BLOCK, AxonTechnologies.id(("incorrect_for_tool_level_infinite")));
+
+        public static final TagKey<Block> NEEDS_TOOL_LEVEL_4 = TagKey.of(RegistryKeys.BLOCK, Identifier.of("fabric", "needs_tool_level_4"));
+        public static final TagKey<Block> NEEDS_TOOL_LEVEL_5 = TagKey.of(RegistryKeys.BLOCK, Identifier.of("fabric", "needs_tool_level_5"));
+        public static final TagKey<Block> NEEDS_TOOL_LEVEL_6 = TagKey.of(RegistryKeys.BLOCK, Identifier.of("fabric", "needs_tool_level_6"));
+        public static final TagKey<Block> NEEDS_TOOL_LEVEL_7 = TagKey.of(RegistryKeys.BLOCK, Identifier.of("fabric", "needs_tool_level_7"));
+        public static final TagKey<Block> NEEDS_TOOL_LEVEL_8 = TagKey.of(RegistryKeys.BLOCK, Identifier.of("fabric", "needs_tool_level_8"));
+        public static final TagKey<Block> NEEDS_TOOL_LEVEL_9 = TagKey.of(RegistryKeys.BLOCK, Identifier.of("fabric", "needs_tool_level_9"));
+        public static final TagKey<Block> NEEDS_TOOL_LEVEL_10 = TagKey.of(RegistryKeys.BLOCK, Identifier.of("fabric", "needs_tool_level_10"));
+        public static final TagKey<Block> NEEDS_TOOL_LEVEL_11 = TagKey.of(RegistryKeys.BLOCK, Identifier.of("fabric", "needs_tool_level_11"));
+    }
+}

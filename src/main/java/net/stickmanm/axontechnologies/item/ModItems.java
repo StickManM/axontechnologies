@@ -237,115 +237,130 @@ public class ModItems {
             new AxonAlloyArmorItem(ModArmorMaterials.AXON_ALLOY, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
     public static final Item AXON_ALLOY_BOOTS = registerItem("axon_alloy_boots",
             new AxonAlloyArmorItem(ModArmorMaterials.AXON_ALLOY, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
-
+*/
     //TOOLS
 
     //MISC TOOLS
     public static final Item ANTIGLITCH_SWORD = registerItem("antiglitch_sword",
-            new AntiGlitchSwordItem(ModToolMaterials.RED_THUNDERANIUM, 4,-2.5f,
-                    new FabricItemSettings().fireproof()));
+            new SwordItem(ModToolMaterials.RED_THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.RED_THUNDERANIUM, 4, -2.5f))));
 
     public static final Item VANILLA_HOE = registerItem("vanilla_hoe",
-            new HoeItem(ToolMaterials.NETHERITE, 2,1f,
-                    new FabricItemSettings()));
+            new HoeItem(ToolMaterials.NETHERITE,  new Item.Settings().fireproof()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.NETHERITE, 2, -1f))));
 
     public static final Item ULTIMATE_HOE_TROPHY = registerItem("ultimate_hoe_trophy",
-            new ModHoeItem(ModToolMaterials.DARK_THUNDERANIUM, 0,-3f,
-                    new FabricItemSettings()));
+            new HoeItem(ModToolMaterials.DARK_THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.DARK_THUNDERANIUM, 0, -3f))));
 
     public static final Item RAZZOR = registerItem("razzor",
-            new RazzorItem(ModToolMaterials.RAZZORIUM, 2147483646,100000f,
-                    new FabricItemSettings()));
+            new SwordItem(ModToolMaterials.RAZZORIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.RAZZORIUM, 2147483646, 100000f))));
 
     public static final Item NEMESIS_COMMANDO_BLADE = registerItem("nemesis_commando_blade",
-            new RazzorSkinItem(ModToolMaterials.RAZZORIUM, 2147483646,100000f,
-                    new FabricItemSettings()));
+            new SwordItem(ModToolMaterials.RAZZORIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.RAZZORIUM, 2147483646, 100000f))));
 
     public static final Item NOKIA_HAMMER = registerItem("nokia_hammer",
-            new RazzorSkinItem(ModToolMaterials.RAZZORIUM, 2147483647,100001f,
-                    new FabricItemSettings()));
+            new SwordItem(ModToolMaterials.RAZZORIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.RAZZORIUM, 2147483646, 100000f))));
 
     public static final Item BOMB_STICK = registerItem("bomb_stick",
-            new RazzorSkinItem(ModToolMaterials.RAZZORIUM, 2147483646,100000f,
-                    new FabricItemSettings()));
+            new SwordItem(ModToolMaterials.RAZZORIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.RAZZORIUM, 2147483646, 100000f))));
 
     public static final Item TICKLE_TRAVIS_TICKLER = registerItem("tickle_travis_tickler",
-            new RazzorSkinItem(ModToolMaterials.RAZZORIUM, 2147483646,100000f,
-                    new FabricItemSettings()));
+            new SwordItem(ModToolMaterials.RAZZORIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.RAZZORIUM, 2147483646, 100000f))));
+
+    public static final Item RAZZORIUM_PICKAXE = registerItem("razzorium_pickaxe",
+            new PickaxeItem(ModToolMaterials.RAZZORIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RAZZORIUM, 2147483646, 100000f))));
 
 
     //Thunderanium
     public static final Item THUNDERANIUM_SWORD = registerItem("thunderanium_sword",
-            new ModSwordItem(ModToolMaterials.THUNDERANIUM, 5,-2f,
-                    new FabricItemSettings().fireproof()));
+            new SwordItem(ModToolMaterials.THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.THUNDERANIUM, 5, -2f))));
 
     public static final Item THUNDERANIUM_AXE = registerItem("thunderanium_axe",
-            new ModAxeItem(ModToolMaterials.THUNDERANIUM, 8,-3.9f,
-                    new FabricItemSettings().fireproof()));
+            new AxeItem(ModToolMaterials.THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.THUNDERANIUM, 8, -3.9f))));
 
     public static final Item THUNDERANIUM_HOE = registerItem("thunderanium_hoe",
-            new ModHoeItem(ModToolMaterials.THUNDERANIUM, 3,-2.3f,
-                    new FabricItemSettings().fireproof()));
+            new HoeItem(ModToolMaterials.THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.THUNDERANIUM, 1, -2.3f))));
 
     public static final Item THUNDERANIUM_SHOVEL = registerItem("thunderanium_shovel",
-            new ShovelItem(ModToolMaterials.THUNDERANIUM, 3,-2.5f,
-                    new FabricItemSettings().fireproof()));
+            new ShovelItem(ModToolMaterials.THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.THUNDERANIUM, 1, -2.5f))));
 
     public static final Item THUNDERANIUM_PICKAXE = registerItem("thunderanium_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.THUNDERANIUM, 3,-2.4f,
-                    new FabricItemSettings().fireproof()));
+            new PickaxeItem(ModToolMaterials.THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.THUNDERANIUM, 1, -2.4f))));
 
     //Red Thunderanium
     public static final Item RED_THUNDERANIUM_SWORD = registerItem("red_thunderanium_sword",
-            new ModSwordItem(ModToolMaterials.RED_THUNDERANIUM, 5,-2f,
-                    new FabricItemSettings().fireproof()));
+            new SwordItem(ModToolMaterials.RED_THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.RED_THUNDERANIUM, 5, -2f))));
+
     public static final Item RED_THUNDERANIUM_AXE = registerItem("red_thunderanium_axe",
-            new ModAxeItem(ModToolMaterials.RED_THUNDERANIUM, 8,-3.9f,
-                    new FabricItemSettings().fireproof()));
+            new AxeItem(ModToolMaterials.RED_THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.RED_THUNDERANIUM, 8, -3.9f))));
+
     public static final Item RED_THUNDERANIUM_HOE = registerItem("red_thunderanium_hoe",
-            new ModHoeItem(ModToolMaterials.RED_THUNDERANIUM, -1,-2.3f,
-                    new FabricItemSettings().fireproof()));
+            new HoeItem(ModToolMaterials.RED_THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.RED_THUNDERANIUM, 1, -2.3f))));
+
     public static final Item RED_THUNDERANIUM_SHOVEL = registerItem("red_thunderanium_shovel",
-            new ShovelItem(ModToolMaterials.RED_THUNDERANIUM, 3,-2.5f,
-                    new FabricItemSettings().fireproof()));
+            new ShovelItem(ModToolMaterials.RED_THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.RED_THUNDERANIUM, 1, -2.5f))));
 
     public static final Item RED_THUNDERANIUM_PICKAXE = registerItem("red_thunderanium_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.RED_THUNDERANIUM, 3,-2.4f,
-                    new FabricItemSettings().fireproof()));
+            new PickaxeItem(ModToolMaterials.RED_THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RED_THUNDERANIUM, 1, -2.4f))));
 
     //Dark Thunderanium
     public static final Item DARK_THUNDERANIUM_SWORD = registerItem("dark_thunderanium_sword",
-            new DarkThunderaniumSwordItem(ModToolMaterials.DARK_THUNDERANIUM, 5,-2f,
-                    new FabricItemSettings().fireproof()));
+            new SwordItem(ModToolMaterials.DARK_THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DARK_THUNDERANIUM, 5, -2f))));
+
     public static final Item DARK_THUNDERANIUM_AXE = registerItem("dark_thunderanium_axe",
-            new ModAxeItem(ModToolMaterials.DARK_THUNDERANIUM, 8,-3.9f,
-                    new FabricItemSettings().fireproof()));
+            new AxeItem(ModToolMaterials.DARK_THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.DARK_THUNDERANIUM, 8, -3.9f))));
+
     public static final Item DARK_THUNDERANIUM_HOE = registerItem("dark_thunderanium_hoe",
-            new ModHoeItem(ModToolMaterials.DARK_THUNDERANIUM, -1,-2.3f,
-                    new FabricItemSettings().fireproof()));
+            new HoeItem(ModToolMaterials.DARK_THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.DARK_THUNDERANIUM, 1, -2.3f))));
+
     public static final Item DARK_THUNDERANIUM_SHOVEL = registerItem("dark_thunderanium_shovel",
-            new ShovelItem(ModToolMaterials.DARK_THUNDERANIUM, 3,-2.5f,
-                    new FabricItemSettings().fireproof()));
+            new ShovelItem(ModToolMaterials.DARK_THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.DARK_THUNDERANIUM, 1, -2.5f))));
+
     public static final Item DARK_THUNDERANIUM_PICKAXE = registerItem("dark_thunderanium_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.DARK_THUNDERANIUM, 3,-2.4f,
-                    new FabricItemSettings().fireproof()));
+            new PickaxeItem(ModToolMaterials.DARK_THUNDERANIUM,  new Item.Settings().fireproof()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.DARK_THUNDERANIUM, 1, -2.4f))));
     //Corruptinite
     public static final Item CORRUPTINITE_SWORD = registerItem("corruptinite_sword",
-            new CorruptiniteSwordItem(ModToolMaterials.CORRUPTINITE, 5,-2f,
-                    new FabricItemSettings().fireproof()));
-    public static final Item CORRUPTINITE_AXE = registerItem("corruptinite_axe",
-            new ModAxeItem(ModToolMaterials.CORRUPTINITE, 8,-3.9f,
-                    new FabricItemSettings().fireproof()));
-    public static final Item CORRUPTINITE_HOE = registerItem("corruptinite_hoe",
-            new ModHoeItem(ModToolMaterials.CORRUPTINITE, -1,-2.3f,
-                    new FabricItemSettings().fireproof()));
-    public static final Item CORRUPTINITE_SHOVEL = registerItem("corruptinite_shovel",
-            new ShovelItem(ModToolMaterials.CORRUPTINITE, 3,-2.5f,
-                    new FabricItemSettings().fireproof()));
-    public static final Item CORRUPTINITE_PICKAXE = registerItem("corruptinite_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.CORRUPTINITE, 3,-2.4f,
-                    new FabricItemSettings().fireproof()));
+            new SwordItem(ModToolMaterials.CORRUPTINITE,  new Item.Settings().fireproof()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.CORRUPTINITE, 5, -2f))));
 
+    public static final Item CORRUPTINITE_AXE = registerItem("corruptinite_axe",
+            new AxeItem(ModToolMaterials.CORRUPTINITE,  new Item.Settings().fireproof()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.CORRUPTINITE, 8, -3.9f))));
+
+    public static final Item CORRUPTINITE_HOE = registerItem("corruptinite_hoe",
+            new HoeItem(ModToolMaterials.CORRUPTINITE,  new Item.Settings().fireproof()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.CORRUPTINITE, 1, -2.3f))));
+
+    public static final Item CORRUPTINITE_SHOVEL = registerItem("corruptinite_shovel",
+            new ShovelItem(ModToolMaterials.CORRUPTINITE,  new Item.Settings().fireproof()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.CORRUPTINITE, 1, -2.5f))));
+
+    public static final Item CORRUPTINITE_PICKAXE = registerItem("corruptinite_pickaxe",
+            new PickaxeItem(ModToolMaterials.CORRUPTINITE,  new Item.Settings().fireproof()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.CORRUPTINITE, 1, -2.4f))));
+/*
     //Axon Allot G
     public static final Item DARK_THUNDERANIUM_AXON_ALLOY_SWORD = registerItem("dark_thunderanium_axon_alloy_sword",
             new DarkThunderaniumSwordItem(ModToolMaterials.DARK_THUNDERANIUM_AXON_ALLOY, 6,-2f,

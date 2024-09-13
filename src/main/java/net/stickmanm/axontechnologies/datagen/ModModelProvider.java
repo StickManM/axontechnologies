@@ -192,7 +192,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.AXON_ALLOY_HELMET, Models.GENERATED);
         itemModelGenerator.register(ModItems.AXON_ALLOY_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.AXON_ALLOY_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.AXON_ALLOY_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AXON_ALLOY_BOOTS, Models.GENERATED);*/
 
         //Tools
 
@@ -204,6 +204,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.NOKIA_HAMMER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BOMB_STICK, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TICKLE_TRAVIS_TICKLER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAZZORIUM_PICKAXE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.THUNDERANIUM_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.THUNDERANIUM_AXE, Models.HANDHELD);
@@ -228,7 +229,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CORRUPTINITE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CORRUPTINITE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CORRUPTINITE_HOE, Models.HANDHELD);
-
+/*
         itemModelGenerator.register(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_PICKAXE, Models.HANDHELD);
