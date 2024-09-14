@@ -2,7 +2,16 @@
   "values": [
     "axontechnologies:thunderanium_sword",
     "axontechnologies:red_thunderanium_sword",
+    "axontechnologies:antiglitch_sword",
     "axontechnologies:dark_thunderanium_sword",
-    "axontechnologies:corruptinite_sword"
+    "axontechnologies:corruptinite_sword",
+    "axontechnologies:axon_alloy_sword",
+    "axontechnologies:dark_thunderanium_axon_alloy_sword",
+    "axontechnologies:corruptinite_axon_alloy_sword",
+    "axontechnologies:razzor",
+    "axontechnologies:tickle_travis_tickler",
+    "axontechnologies:bomb_stick",
+    "axontechnologies:nemesis_commando_blade",
+    "axontechnologies:nokia_hammer"
   ]
 }

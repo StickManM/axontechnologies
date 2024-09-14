@@ -229,7 +229,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CORRUPTINITE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CORRUPTINITE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CORRUPTINITE_HOE, Models.HANDHELD);
-/*
+
         itemModelGenerator.register(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_PICKAXE, Models.HANDHELD);
@@ -246,7 +246,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.AXON_ALLOY_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AXON_ALLOY_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AXON_ALLOY_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.AXON_ALLOY_HOE, Models.HANDHELD);*/
+        itemModelGenerator.register(ModItems.AXON_ALLOY_HOE, Models.HANDHELD);
 
     }
 }

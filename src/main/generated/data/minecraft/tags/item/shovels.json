@@ -3,6 +3,9 @@
     "axontechnologies:thunderanium_shovel",
     "axontechnologies:red_thunderanium_shovel",
     "axontechnologies:dark_thunderanium_shovel",
-    "axontechnologies:corruptinite_shovel"
+    "axontechnologies:corruptinite_shovel",
+    "axontechnologies:axon_alloy_shovel",
+    "axontechnologies:dark_thunderanium_axon_alloy_shovel",
+    "axontechnologies:corruptinite_axon_alloy_shovel"
   ]
 }

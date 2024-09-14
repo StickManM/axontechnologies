@@ -22,5 +22,7 @@ public class ModTagList {
         public static final TagKey<Block> NEEDS_TOOL_LEVEL_9 = TagKey.of(RegistryKeys.BLOCK, Identifier.of("fabric", "needs_tool_level_9"));
         public static final TagKey<Block> NEEDS_TOOL_LEVEL_10 = TagKey.of(RegistryKeys.BLOCK, Identifier.of("fabric", "needs_tool_level_10"));
         public static final TagKey<Block> NEEDS_TOOL_LEVEL_11 = TagKey.of(RegistryKeys.BLOCK, Identifier.of("fabric", "needs_tool_level_11"));
+
+        public static final TagKey<Block> REINFORCED_DREADSTONE_BLOCKS = TagKey.of(RegistryKeys.BLOCK, AxonTechnologies.id("reinforced_dreadstone_blocks"));
     }
 }

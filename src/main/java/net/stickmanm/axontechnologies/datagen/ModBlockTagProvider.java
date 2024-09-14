@@ -107,13 +107,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DENDERIUM_ORE)
                 .add(ModBlocks.CORRUPTION_PORTAL_FRAME)
                 .add(ModBlocks.CORRUPTION_BLOCK)
-                .add(ModBlocks.REINFORCED_DREADSTONE)
-                .add(ModBlocks.REINFORCED_DREADSTONE_DOOR)
-                .add(ModBlocks.REINFORCED_DREADSTONE_TRAPDOOR)
-                .add(ModBlocks.REINFORCED_DREADSTONE_STAIRS)
-                .add(ModBlocks.REINFORCED_DREADSTONE_SLAB)
-                .add(ModBlocks.REINFORCED_DREADSTONE_WALL)
-                .add(ModBlocks.REINFORCED_DREADSTONE_GLASS);
+                .addTag(ModTagList.Blocks.REINFORCED_DREADSTONE_BLOCKS);
 
         getOrCreateTagBuilder(ModTagList.Blocks.NEEDS_TOOL_LEVEL_7);
         getOrCreateTagBuilder(ModTagList.Blocks.NEEDS_TOOL_LEVEL_8);
@@ -151,25 +145,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_INFINITE);
 
 
+        getOrCreateTagBuilder(ModTagList.Blocks.REINFORCED_DREADSTONE_BLOCKS)
+                .add(ModBlocks.REINFORCED_DREADSTONE)
+                .add(ModBlocks.REINFORCED_DREADSTONE_DOOR)
+                .add(ModBlocks.REINFORCED_DREADSTONE_TRAPDOOR)
+                .add(ModBlocks.REINFORCED_DREADSTONE_STAIRS)
+                .add(ModBlocks.REINFORCED_DREADSTONE_SLAB)
+                .add(ModBlocks.REINFORCED_DREADSTONE_WALL)
+                .add(ModBlocks.REINFORCED_DREADSTONE_GLASS);
 
 
         getOrCreateTagBuilder(BlockTags.WITHER_IMMUNE)
-                .add(ModBlocks.REINFORCED_DREADSTONE_WALL)
-                .add(ModBlocks.REINFORCED_DREADSTONE)
-                .add(ModBlocks.REINFORCED_DREADSTONE_GLASS)
-                .add(ModBlocks.REINFORCED_DREADSTONE_DOOR)
-                .add(ModBlocks.REINFORCED_DREADSTONE_TRAPDOOR)
-                .add(ModBlocks.REINFORCED_DREADSTONE_SLAB)
-                .add(ModBlocks.REINFORCED_DREADSTONE_STAIRS);
+                .addTag(ModTagList.Blocks.REINFORCED_DREADSTONE_BLOCKS);
 
         getOrCreateTagBuilder(BlockTags.DRAGON_IMMUNE)
-                .add(ModBlocks.REINFORCED_DREADSTONE_WALL)
-                .add(ModBlocks.REINFORCED_DREADSTONE)
-                .add(ModBlocks.REINFORCED_DREADSTONE_GLASS)
-                .add(ModBlocks.REINFORCED_DREADSTONE_DOOR)
-                .add(ModBlocks.REINFORCED_DREADSTONE_TRAPDOOR)
-                .add(ModBlocks.REINFORCED_DREADSTONE_SLAB)
-                .add(ModBlocks.REINFORCED_DREADSTONE_STAIRS);
+                .addTag(ModTagList.Blocks.REINFORCED_DREADSTONE_BLOCKS);
 
         getOrCreateTagBuilder(BlockTags.TRAPDOORS)
                 .add(ModBlocks.REINFORCED_DREADSTONE_TRAPDOOR);

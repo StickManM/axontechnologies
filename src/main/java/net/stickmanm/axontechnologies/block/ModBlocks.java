@@ -71,25 +71,25 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.copy(Blocks.STONE).strength(2.7f).requiresTool()));
 
     public static final Block REINFORCED_DREADSTONE = registerBlock("reinforced_dreadstone",
-            new Block(AbstractBlock.Settings.copy(Blocks.BEDROCK).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+            new Block(AbstractBlock.Settings.copy(Blocks.OBSIDIAN).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
 
     public static final Block REINFORCED_DREADSTONE_SLAB = registerBlock("reinforced_dreadstone_slab",
-            new SlabBlock(AbstractBlock.Settings.copy(Blocks.BEDROCK).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.OBSIDIAN).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
 
     public static final Block REINFORCED_DREADSTONE_STAIRS = registerBlock("reinforced_dreadstone_stairs",
-            new StairsBlock(ModBlocks.REINFORCED_DREADSTONE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.BEDROCK).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+            new StairsBlock(ModBlocks.REINFORCED_DREADSTONE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.OBSIDIAN).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
 
     public static final Block REINFORCED_DREADSTONE_WALL = registerBlock("reinforced_dreadstone_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.BEDROCK).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.OBSIDIAN).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
 
     public static final Block REINFORCED_DREADSTONE_DOOR = registerBlock("reinforced_dreadstone_door",
-            new DoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(Blocks.BEDROCK).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+            new DoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(Blocks.OBSIDIAN).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
 
     public static final Block REINFORCED_DREADSTONE_TRAPDOOR = registerBlock("reinforced_dreadstone_trapdoor",
-            new TrapdoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(Blocks.BEDROCK).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+            new TrapdoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(Blocks.OBSIDIAN).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
 
     public static final Block REINFORCED_DREADSTONE_GLASS = registerBlock("reinforced_dreadstone_glass",
-            new TransparentBlock(AbstractBlock.Settings.copy(Blocks.BEDROCK).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+            new TransparentBlock(AbstractBlock.Settings.copy(Blocks.OBSIDIAN).resistance(3600000.0F).strength(255f).hardness(255f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
 
     public static final Block DREADSTONE_DIAMOND_ORE = registerBlock("dreadstone_diamond_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(7, 10),
