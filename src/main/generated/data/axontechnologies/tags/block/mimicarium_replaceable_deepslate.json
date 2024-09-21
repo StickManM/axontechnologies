@@ -1,0 +1,16 @@
+{
+  "values": [
+    "axontechnologies:fakeslate",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:deepslate_copper_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:deepslate_coal_ore",
+    "minecraft:deepslate_lapis_ore",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:raw_copper_block",
+    "minecraft:raw_iron_block",
+    "minecraft:raw_gold_block",
+    "minecraft:tuff",
+    "minecraft:deepslate_emerald_ore"
+  ]
+}

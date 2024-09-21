@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:corruptinite"
+    },
+    "S": {
+      "item": "axontechnologies:antiglitch_sword"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "axontechnologies:corruptinite_sword"
+  }
+}

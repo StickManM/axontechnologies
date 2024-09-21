@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "axontechnologies:razzor"
+    },
+    {
+      "item": "axontechnologies:natey_gift"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "axontechnologies:nemesis_commando_blade"
+  }
+}

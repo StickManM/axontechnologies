@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "axontechnologies:octuple_compressed_stick"
+    },
+    {
+      "item": "axontechnologies:natey_balls"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "axontechnologies:octuple_compressed_cobblestone"
+  }
+}

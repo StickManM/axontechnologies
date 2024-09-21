@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "axontechnologies:dark_essence"
+    },
+    "T": {
+      "item": "axontechnologies:red_thunderanium_ingot"
+    }
+  },
+  "pattern": [
+    " ##",
+    " TT",
+    " ##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "axontechnologies:dark_thunderanium_cluster"
+  }
+}

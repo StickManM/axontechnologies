@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 75,
+  "experience": 3.0,
+  "group": "netherite",
+  "ingredient": {
+    "item": "axontechnologies:dreadstone_netherite_ore"
+  },
+  "result": {
+    "id": "minecraft:netherite_ingot"
+  }
+}

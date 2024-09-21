@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1000.0,
+  "group": "dark_thunderanium",
+  "ingredient": {
+    "item": "axontechnologies:dark_thunderanium_cluster"
+  },
+  "result": {
+    "id": "axontechnologies:dark_thunderanium_ingot"
+  }
+}
