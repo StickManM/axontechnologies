@@ -1,6 +1,10 @@
-// 1.21.1	2024-09-20T23:54:21.7924229	Axon Technologies/Tags for minecraft:item
+// 1.21.1	2024-09-21T17:07:18.9680651	Axon Technologies/Tags for minecraft:item
+06be19e5873835ef63d0d491380423a2bb0ce9cd data\minecraft\tags\item\leg_armor.json
 c614eb93795240ee16390ac717ac4125dfdba86c data\minecraft\tags\item\swords.json
 7fe4eb68e6217d04b3a2ce2121b8ef0ca7dc06e8 data\minecraft\tags\item\hoes.json
+8b40dbd47e0550abe1be148b5834d0da76117d68 data\minecraft\tags\item\head_armor.json
+8b75a7c76df24842ed75122250ac88e084ef058d data\minecraft\tags\item\foot_armor.json
 42b348c65285225d29e69b872f9a787e54b900a9 data\minecraft\tags\item\pickaxes.json
 a7a9094427101b267c31728c73a06aad434a3633 data\minecraft\tags\item\axes.json
 0b6de4ca7d63a226bcc62b58997941a3e350ebe4 data\minecraft\tags\item\shovels.json
+5ec959edc9c6db4686c6096a9451ae66347a24ad data\minecraft\tags\item\chest_armor.json

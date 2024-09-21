@@ -65,10 +65,10 @@ public class ModItemGroups {
                         entries.add(ModItems.THUNDERANIUM_KEY);
                         entries.add(ModItems.CORRUPTION_GATEWAY);
 
-                        /*entries.add(ModItems.THUNDERANIUM_HELMET);
+                        entries.add(ModItems.THUNDERANIUM_HELMET);
                         entries.add(ModItems.THUNDERANIUM_CHESTPLATE);
                         entries.add(ModItems.THUNDERANIUM_LEGGINGS);
-                        entries.add(ModItems.THUNDERANIUM_BOOTS);*/
+                        entries.add(ModItems.THUNDERANIUM_BOOTS);
 
                         entries.add(ModItems.THUNDERANIUM_SWORD);
                         entries.add(ModItems.THUNDERANIUM_PICKAXE);

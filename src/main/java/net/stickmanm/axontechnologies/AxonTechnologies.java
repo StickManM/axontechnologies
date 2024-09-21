@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.util.Identifier;
 import net.stickmanm.axontechnologies.block.ModBlocks;
+import net.stickmanm.axontechnologies.item.ModArmorMaterials;
 import net.stickmanm.axontechnologies.item.ModFuels;
 import net.stickmanm.axontechnologies.item.ModItemGroups;
 import net.stickmanm.axontechnologies.item.ModItems;
@@ -26,7 +27,7 @@ public class AxonTechnologies implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModOreGeneration.generateOres();
-
+		ModArmorMaterials.registerModArmorMaterials();
 		ModFuels.registerModFuels();
 
 		ModBiomes.registerModBiomes();

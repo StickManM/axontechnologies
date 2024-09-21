@@ -19,6 +19,8 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
+
+        //Tools
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.THUNDERANIUM_PICKAXE)
                 .add(ModItems.RED_THUNDERANIUM_PICKAXE)
@@ -72,6 +74,19 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModItems.CORRUPTINITE_AXON_ALLOY_HOE)
                 .add(ModItems.VANILLA_HOE)
                 .add(ModItems.ULTIMATE_HOE_TROPHY);
+
+        //Armors
+        getOrCreateTagBuilder(ItemTags.HEAD_ARMOR)
+                .add(ModItems.THUNDERANIUM_HELMET);
+
+        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR)
+                .add(ModItems.THUNDERANIUM_CHESTPLATE);
+
+        getOrCreateTagBuilder(ItemTags.LEG_ARMOR)
+                .add(ModItems.THUNDERANIUM_LEGGINGS);
+
+        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR)
+                .add(ModItems.THUNDERANIUM_BOOTS);
 
     }
 }

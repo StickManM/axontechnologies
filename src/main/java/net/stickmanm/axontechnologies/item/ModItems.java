@@ -166,21 +166,28 @@ public class ModItems {
             new Item(new Item.Settings().fireproof()));
     public static final Item CORRUPTION_GATEWAY = registerItem("corruption_gateway",
             new Item(new Item.Settings().fireproof()));
-    /*
+
     //Armors
 
 
 
     //Thunderanium
-    public static final Item THUNDERANIUM_HELMET = registerItem("thunderanium_helmet",
-            new ThunderaniumArmorItem(ModArmorMaterials.THUNDERANIUM, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
-    public static final Item THUNDERANIUM_CHESTPLATE = registerItem("thunderanium_chestplate",
-            new ThunderaniumArmorItem(ModArmorMaterials.THUNDERANIUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
-    public static final Item THUNDERANIUM_LEGGINGS = registerItem("thunderanium_leggings",
-            new ThunderaniumArmorItem(ModArmorMaterials.THUNDERANIUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
-    public static final Item THUNDERANIUM_BOOTS = registerItem("thunderanium_boots",
-            new ThunderaniumArmorItem(ModArmorMaterials.THUNDERANIUM, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
+    public static final ArmorItem THUNDERANIUM_HELMET = (ArmorItem) registerItem("thunderanium_helmet",
+            new ArmorItem(ModArmorMaterials.THUNDERANIUM, ArmorItem.Type.HELMET, new Item.Settings().fireproof()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(600))));
 
+    public static final ArmorItem THUNDERANIUM_CHESTPLATE = (ArmorItem) registerItem("thunderanium_chestplate",
+            new ArmorItem(ModArmorMaterials.THUNDERANIUM, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(600))));
+
+    public static final ArmorItem THUNDERANIUM_LEGGINGS = (ArmorItem) registerItem("thunderanium_leggings",
+            new ArmorItem(ModArmorMaterials.THUNDERANIUM, ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(600))));
+
+    public static final ArmorItem THUNDERANIUM_BOOTS = (ArmorItem) registerItem("thunderanium_boots",
+            new ArmorItem(ModArmorMaterials.THUNDERANIUM, ArmorItem.Type.BOOTS, new Item.Settings().fireproof()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(600))));
+    /*
     //Red Thunderanium
     public static final Item RED_THUNDERANIUM_HELMET = registerItem("red_thunderanium_helmet",
             new RedThunderaniumArmorItem(ModArmorMaterials.RED_THUNDERANIUM, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));

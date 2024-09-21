@@ -1,9 +1,9 @@
-// 1.21.1	2024-09-20T23:54:21.7934239	Axon Technologies/Tags for minecraft:block
+// 1.21.1	2024-09-21T17:07:18.9700357	Axon Technologies/Tags for minecraft:block
 689deae62b5750fc7bc837127fd5a9da9b6c459d data\minecraft\tags\block\needs_diamond_tool.json
 1ea8da4b02edac92ee9ba3020713816952b37e75 data\fabric\tags\block\needs_tool_level_5.json
 988d8039c5924a4e31db735b14f024698d567068 data\minecraft\tags\block\dragon_immune.json
-39055b2f6cb3a483a8abbacee7cd93816461b193 data\axontechnologies\tags\block\fakestone_replaceable.json
 e3f5a580bb49fe9c6a7b9ada30cdf5ba5eb5f88b data\axontechnologies\tags\block\reinforced_dreadstone_blocks.json
+39055b2f6cb3a483a8abbacee7cd93816461b193 data\axontechnologies\tags\block\fakestone_replaceable.json
 9893da12edf3e6522663e714a165a139f47ac0b1 data\fabric\tags\block\needs_tool_level_10.json
 9cbd2c0ce7d7237fdc89a29c3e7d57f2f85d32ac data\axontechnologies\tags\block\incorrect_for_tool_level_10.json
 90d90de2f136a21206f8c054d27e4b1c8f5f177c data\minecraft\tags\block\walls.json
@@ -17,17 +17,17 @@ cfab2ab481bf476a645d326b87627918009b9e50 data\axontechnologies\tags\block\voidst
 34451d9af4c991eb3a545b1e4578a4a20411c92e data\minecraft\tags\block\needs_stone_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\axontechnologies\tags\block\incorrect_for_tool_level_infinite.json
 f1197b4d8aacd0e549f5b51340d06c9292feb8b8 data\minecraft\tags\block\dirt.json
-b61e4e852cafb15d5b781fec1ef25100957da41c data\minecraft\tags\block\trapdoors.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\block\sword_efficient.json
+b61e4e852cafb15d5b781fec1ef25100957da41c data\minecraft\tags\block\trapdoors.json
 c7f30b84861a7ccad81f9e351dbb223b5a91429b data\axontechnologies\tags\block\incorrect_for_tool_level_7.json
-e769d5bcee0e9db6b5d2e2cf4ad09d4428f9bfc0 data\minecraft\tags\block\doors.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\fabric\tags\block\needs_tool_level_8.json
+e769d5bcee0e9db6b5d2e2cf4ad09d4428f9bfc0 data\minecraft\tags\block\doors.json
 ade8c17e3365ed600439fdfd38c1db34a1dbb949 data\axontechnologies\tags\block\mimicarium_replaceable_deepslate.json
 62301cf6d453a64fc42d3f5458e36499ec16ea21 data\minecraft\tags\block\mineable\pickaxe.json
 0a178deb75ee5371e36f67da41ba4cf33d4242b7 data\minecraft\tags\block\slabs.json
 b224ca892648c39291ed40de0cec6e82959581ba data\axontechnologies\tags\block\corrupted_stone_replaceable.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\fabric\tags\block\needs_tool_level_9.json
 a7da00585a3efb86cdb8aecf0a2e4e1be2bdfc9f data\minecraft\tags\block\needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\fabric\tags\block\needs_tool_level_9.json
 082422a15da1b5c23aba79af2f67ae1efed1fecd data\fabric\tags\block\needs_tool_level_6.json
 2a9efdf66f76a7efa5bf7262e47612332a72c389 data\fabric\tags\block\needs_tool_level_4.json
 d6e17b0a2155d0a7afa25abf82a23da7e2c92d86 data\axontechnologies\tags\block\fakeslate_replaceable.json

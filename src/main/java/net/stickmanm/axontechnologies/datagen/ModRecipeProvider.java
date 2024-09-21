@@ -472,6 +472,42 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //Armor
 
+        //Thunderanium
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THUNDERANIUM_HELMET)
+                .pattern("###")
+                .pattern("# #")
+                .input('#', ModItems.THUNDERANIUM_INGOT)
+                .criterion(FabricRecipeProvider.hasItem(ModItems.THUNDERANIUM_INGOT),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.THUNDERANIUM_HELMET))
+                .offerTo(exporter, Identifier.of(FabricRecipeProvider.getRecipeName(ModItems.THUNDERANIUM_HELMET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THUNDERANIUM_CHESTPLATE)
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModItems.THUNDERANIUM_INGOT)
+                .criterion(FabricRecipeProvider.hasItem(ModItems.THUNDERANIUM_INGOT),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.THUNDERANIUM_CHESTPLATE))
+                .offerTo(exporter, Identifier.of(FabricRecipeProvider.getRecipeName(ModItems.THUNDERANIUM_CHESTPLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THUNDERANIUM_LEGGINGS)
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', ModItems.THUNDERANIUM_INGOT)
+                .criterion(FabricRecipeProvider.hasItem(ModItems.THUNDERANIUM_INGOT),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.THUNDERANIUM_LEGGINGS))
+                .offerTo(exporter, Identifier.of(FabricRecipeProvider.getRecipeName(ModItems.THUNDERANIUM_LEGGINGS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THUNDERANIUM_BOOTS)
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', ModItems.THUNDERANIUM_INGOT)
+                .criterion(FabricRecipeProvider.hasItem(ModItems.THUNDERANIUM_INGOT),
+                        FabricRecipeProvider.conditionsFromItem(ModItems.THUNDERANIUM_BOOTS))
+                .offerTo(exporter, Identifier.of(FabricRecipeProvider.getRecipeName(ModItems.THUNDERANIUM_BOOTS)));
+
+
 
         //Tools
 

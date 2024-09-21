@@ -159,11 +159,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         //Armors
 
-        /* itemModelGenerator.register(ModItems.THUNDERANIUM_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.THUNDERANIUM_HELMET, Models.GENERATED);
         itemModelGenerator.register(ModItems.THUNDERANIUM_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.THUNDERANIUM_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(ModItems.THUNDERANIUM_BOOTS, Models.GENERATED);
-
+        /*
         itemModelGenerator.register(ModItems.RED_THUNDERANIUM_HELMET, Models.GENERATED);
         itemModelGenerator.register(ModItems.RED_THUNDERANIUM_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RED_THUNDERANIUM_LEGGINGS, Models.GENERATED);
