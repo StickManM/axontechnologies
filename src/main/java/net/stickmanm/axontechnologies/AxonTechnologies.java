@@ -10,6 +10,7 @@ import net.stickmanm.axontechnologies.item.ModItemGroups;
 import net.stickmanm.axontechnologies.item.ModItems;
 import net.stickmanm.axontechnologies.world.biome.ModBiomes;
 import net.stickmanm.axontechnologies.world.dimension.ModDimensions;
+import net.stickmanm.axontechnologies.world.gen.ModOreGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,6 +24,8 @@ public class AxonTechnologies implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModOreGeneration.generateOres();
 
 		ModFuels.registerModFuels();
 

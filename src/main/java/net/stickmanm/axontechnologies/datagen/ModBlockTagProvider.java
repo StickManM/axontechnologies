@@ -3,6 +3,7 @@ package net.stickmanm.axontechnologies.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.network.packet.CustomPayload;
 import net.minecraft.registry.Registries;
@@ -153,6 +154,51 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.REINFORCED_DREADSTONE_SLAB)
                 .add(ModBlocks.REINFORCED_DREADSTONE_WALL)
                 .add(ModBlocks.REINFORCED_DREADSTONE_GLASS);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.MIMICARIUM_REPLACEABLE_STONE)
+                .add(ModBlocks.FAKESTONE)
+                .add(Blocks.IRON_ORE)
+                .add(Blocks.COPPER_ORE)
+                .add(Blocks.GOLD_ORE)
+                .add(Blocks.COAL_ORE)
+                .add(Blocks.LAPIS_ORE)
+                .add(Blocks.DIAMOND_ORE)
+                .add(Blocks.DIORITE)
+                .add(Blocks.ANDESITE)
+                .add(Blocks.GRANITE)
+                .add(Blocks.EMERALD_ORE);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.MIMICARIUM_REPLACEABLE_DEEPSLATE)
+                .add(ModBlocks.FAKESLATE)
+                .add(Blocks.DEEPSLATE_IRON_ORE)
+                .add(Blocks.DEEPSLATE_COPPER_ORE)
+                .add(Blocks.DEEPSLATE_GOLD_ORE)
+                .add(Blocks.DEEPSLATE_COAL_ORE)
+                .add(Blocks.DEEPSLATE_LAPIS_ORE)
+                .add(Blocks.DEEPSLATE_DIAMOND_ORE)
+                .add(Blocks.RAW_COPPER_BLOCK)
+                .add(Blocks.RAW_IRON_BLOCK)
+                .add(Blocks.RAW_GOLD_BLOCK)
+                .add(Blocks.TUFF)
+                .add(Blocks.DEEPSLATE_EMERALD_ORE);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.FAKESTONE_REPLACEABLE)
+                .add(ModBlocks.FAKESTONE);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.FAKESLATE_REPLACEABLE)
+                .add(ModBlocks.FAKESLATE);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.DREADSTONE_REPLACEABLE)
+                .add(ModBlocks.DREADSTONE);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.THUNDERED_STONE_REPLACEABLE)
+                .add(ModBlocks.THUNDERED_STONE);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.CORRUPTED_STONE_REPLACEABLE)
+                .add(ModBlocks.CORRUPTED_STONE);
+
+        getOrCreateTagBuilder(ModTagList.Blocks.VOIDSTONE_REPLACEABLE)
+                .add(Blocks.BEDROCK);
 
 
         getOrCreateTagBuilder(BlockTags.WITHER_IMMUNE)

@@ -2,7 +2,11 @@ package net.stickmanm.axontechnologies;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 import net.stickmanm.axontechnologies.datagen.*;
+import net.stickmanm.axontechnologies.world.ModConfiguredFeatures;
+import net.stickmanm.axontechnologies.world.ModPlacedFeatures;
 
 public class AxonTechnologiesDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -14,7 +18,14 @@ public class AxonTechnologiesDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModModelProvider::new);
-		//pack.addProvider(ModWorldGenerator::new);
+		pack.addProvider(ModWorldGenerator::new);
 		//pack.addProvider(ModAdvancementGenerator::new);
+	}
+
+	@Override
+	public void buildRegistry(RegistryBuilder registryBuilder) {
+		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+
 	}
 }
