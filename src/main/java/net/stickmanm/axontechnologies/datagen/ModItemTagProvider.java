@@ -77,16 +77,40 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
 
         //Armors
         getOrCreateTagBuilder(ItemTags.HEAD_ARMOR)
-                .add(ModItems.THUNDERANIUM_HELMET);
+                .add(ModItems.THUNDERANIUM_HELMET)
+                .add(ModItems.RED_THUNDERANIUM_HELMET)
+                .add(ModItems.DARK_THUNDERANIUM_HELMET)
+                .add(ModItems.CORRUPTINITE_HELMET)
+                .add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_HELMET)
+                .add(ModItems.CORRUPTINITE_AXON_ALLOY_HELMET)
+                .add(ModItems.AXON_ALLOY_HELMET);
 
         getOrCreateTagBuilder(ItemTags.CHEST_ARMOR)
-                .add(ModItems.THUNDERANIUM_CHESTPLATE);
+                .add(ModItems.THUNDERANIUM_CHESTPLATE)
+                .add(ModItems.RED_THUNDERANIUM_CHESTPLATE)
+                .add(ModItems.DARK_THUNDERANIUM_CHESTPLATE)
+                .add(ModItems.CORRUPTINITE_CHESTPLATE)
+                .add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_CHESTPLATE)
+                .add(ModItems.CORRUPTINITE_AXON_ALLOY_CHESTPLATE)
+                .add(ModItems.AXON_ALLOY_CHESTPLATE);
 
         getOrCreateTagBuilder(ItemTags.LEG_ARMOR)
-                .add(ModItems.THUNDERANIUM_LEGGINGS);
+                .add(ModItems.THUNDERANIUM_LEGGINGS)
+                .add(ModItems.RED_THUNDERANIUM_LEGGINGS)
+                .add(ModItems.DARK_THUNDERANIUM_LEGGINGS)
+                .add(ModItems.CORRUPTINITE_LEGGINGS)
+                .add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_LEGGINGS)
+                .add(ModItems.CORRUPTINITE_AXON_ALLOY_LEGGINGS)
+                .add(ModItems.AXON_ALLOY_LEGGINGS);
 
         getOrCreateTagBuilder(ItemTags.FOOT_ARMOR)
-                .add(ModItems.THUNDERANIUM_BOOTS);
+                .add(ModItems.THUNDERANIUM_BOOTS)
+                .add(ModItems.RED_THUNDERANIUM_BOOTS)
+                .add(ModItems.DARK_THUNDERANIUM_BOOTS)
+                .add(ModItems.CORRUPTINITE_BOOTS)
+                .add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_BOOTS)
+                .add(ModItems.CORRUPTINITE_AXON_ALLOY_BOOTS)
+                .add(ModItems.AXON_ALLOY_BOOTS);
 
     }
 }

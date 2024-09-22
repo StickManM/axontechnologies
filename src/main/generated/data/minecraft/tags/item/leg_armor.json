@@ -1,5 +1,11 @@
 {
   "values": [
-    "axontechnologies:thunderanium_leggings"
+    "axontechnologies:thunderanium_leggings",
+    "axontechnologies:red_thunderanium_leggings",
+    "axontechnologies:dark_thunderanium_leggings",
+    "axontechnologies:corruptinite_leggings",
+    "axontechnologies:dark_thunderanium_axon_alloy_leggings",
+    "axontechnologies:corruptinite_axon_alloy_leggings",
+    "axontechnologies:axon_alloy_leggings"
   ]
 }

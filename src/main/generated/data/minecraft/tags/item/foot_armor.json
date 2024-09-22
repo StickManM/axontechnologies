@@ -1,5 +1,11 @@
 {
   "values": [
-    "axontechnologies:thunderanium_boots"
+    "axontechnologies:thunderanium_boots",
+    "axontechnologies:red_thunderanium_boots",
+    "axontechnologies:dark_thunderanium_boots",
+    "axontechnologies:corruptinite_boots",
+    "axontechnologies:dark_thunderanium_axon_alloy_boots",
+    "axontechnologies:corruptinite_axon_alloy_boots",
+    "axontechnologies:axon_alloy_boots"
   ]
 }

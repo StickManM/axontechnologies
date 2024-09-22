@@ -75,44 +75,44 @@ public class ModItemGroups {
                         entries.add(ModItems.THUNDERANIUM_AXE);
                         entries.add(ModItems.THUNDERANIUM_SHOVEL);
                         entries.add(ModItems.THUNDERANIUM_HOE);
-/*
+
                         entries.add(ModItems.RED_THUNDERANIUM_HELMET);
                         entries.add(ModItems.RED_THUNDERANIUM_CHESTPLATE);
                         entries.add(ModItems.RED_THUNDERANIUM_LEGGINGS);
-                        entries.add(ModItems.RED_THUNDERANIUM_BOOTS);*/
+                        entries.add(ModItems.RED_THUNDERANIUM_BOOTS);
 
                         entries.add(ModItems.RED_THUNDERANIUM_SWORD);
                         entries.add(ModItems.RED_THUNDERANIUM_PICKAXE);
                         entries.add(ModItems.RED_THUNDERANIUM_AXE);
                         entries.add(ModItems.RED_THUNDERANIUM_SHOVEL);
                         entries.add(ModItems.RED_THUNDERANIUM_HOE);
-/*
+
                         entries.add(ModItems.DARK_THUNDERANIUM_HELMET);
                         entries.add(ModItems.DARK_THUNDERANIUM_CHESTPLATE);
                         entries.add(ModItems.DARK_THUNDERANIUM_LEGGINGS);
-                        entries.add(ModItems.DARK_THUNDERANIUM_BOOTS);*/
+                        entries.add(ModItems.DARK_THUNDERANIUM_BOOTS);
 
                         entries.add(ModItems.DARK_THUNDERANIUM_SWORD);
                         entries.add(ModItems.DARK_THUNDERANIUM_PICKAXE);
                         entries.add(ModItems.DARK_THUNDERANIUM_AXE);
                         entries.add(ModItems.DARK_THUNDERANIUM_SHOVEL);
                         entries.add(ModItems.DARK_THUNDERANIUM_HOE);
-/*
+
                         entries.add(ModItems.CORRUPTINITE_HELMET);
                         entries.add(ModItems.CORRUPTINITE_CHESTPLATE);
                         entries.add(ModItems.CORRUPTINITE_LEGGINGS);
-                        entries.add(ModItems.CORRUPTINITE_BOOTS);*/
+                        entries.add(ModItems.CORRUPTINITE_BOOTS);
 
                         entries.add(ModItems.CORRUPTINITE_SWORD);
                         entries.add(ModItems.CORRUPTINITE_PICKAXE);
                         entries.add(ModItems.CORRUPTINITE_AXE);
                         entries.add(ModItems.CORRUPTINITE_SHOVEL);
                         entries.add(ModItems.CORRUPTINITE_HOE);
-/*
+
                         entries.add(ModItems.CORRUPTINITE_AXON_ALLOY_HELMET);
                         entries.add(ModItems.CORRUPTINITE_AXON_ALLOY_CHESTPLATE);
                         entries.add(ModItems.CORRUPTINITE_AXON_ALLOY_LEGGINGS);
-                        entries.add(ModItems.CORRUPTINITE_AXON_ALLOY_BOOTS);*/
+                        entries.add(ModItems.CORRUPTINITE_AXON_ALLOY_BOOTS);
 
                         entries.add(ModItems.CORRUPTINITE_AXON_ALLOY_SWORD);
                         entries.add(ModItems.CORRUPTINITE_AXON_ALLOY_PICKAXE);
@@ -120,10 +120,10 @@ public class ModItemGroups {
                         entries.add(ModItems.CORRUPTINITE_AXON_ALLOY_SHOVEL);
                         entries.add(ModItems.CORRUPTINITE_AXON_ALLOY_HOE);
 
-/*                        entries.add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_HELMET);
+                        entries.add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_HELMET);
                         entries.add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_CHESTPLATE);
                         entries.add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_LEGGINGS);
-                        entries.add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_BOOTS);*/
+                        entries.add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_BOOTS);
 
                         entries.add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_SWORD);
                         entries.add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_PICKAXE);
@@ -131,10 +131,10 @@ public class ModItemGroups {
                         entries.add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_SHOVEL);
                         entries.add(ModItems.DARK_THUNDERANIUM_AXON_ALLOY_HOE);
 
-/*                        entries.add(ModItems.AXON_ALLOY_HELMET);
+                        entries.add(ModItems.AXON_ALLOY_HELMET);
                         entries.add(ModItems.AXON_ALLOY_CHESTPLATE);
                         entries.add(ModItems.AXON_ALLOY_LEGGINGS);
-                        entries.add(ModItems.AXON_ALLOY_BOOTS);*/
+                        entries.add(ModItems.AXON_ALLOY_BOOTS);
 
                         entries.add(ModItems.AXON_ALLOY_SWORD);
                         entries.add(ModItems.AXON_ALLOY_PICKAXE);

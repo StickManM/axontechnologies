@@ -1,5 +1,11 @@
 {
   "values": [
-    "axontechnologies:thunderanium_helmet"
+    "axontechnologies:thunderanium_helmet",
+    "axontechnologies:red_thunderanium_helmet",
+    "axontechnologies:dark_thunderanium_helmet",
+    "axontechnologies:corruptinite_helmet",
+    "axontechnologies:dark_thunderanium_axon_alloy_helmet",
+    "axontechnologies:corruptinite_axon_alloy_helmet",
+    "axontechnologies:axon_alloy_helmet"
   ]
 }

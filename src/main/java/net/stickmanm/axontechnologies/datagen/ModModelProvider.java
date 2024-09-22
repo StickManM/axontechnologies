@@ -163,7 +163,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.THUNDERANIUM_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.THUNDERANIUM_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(ModItems.THUNDERANIUM_BOOTS, Models.GENERATED);
-        /*
+
         itemModelGenerator.register(ModItems.RED_THUNDERANIUM_HELMET, Models.GENERATED);
         itemModelGenerator.register(ModItems.RED_THUNDERANIUM_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RED_THUNDERANIUM_LEGGINGS, Models.GENERATED);
@@ -192,7 +192,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.AXON_ALLOY_HELMET, Models.GENERATED);
         itemModelGenerator.register(ModItems.AXON_ALLOY_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.AXON_ALLOY_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.AXON_ALLOY_BOOTS, Models.GENERATED);*/
+        itemModelGenerator.register(ModItems.AXON_ALLOY_BOOTS, Models.GENERATED);
 
         //Tools
 

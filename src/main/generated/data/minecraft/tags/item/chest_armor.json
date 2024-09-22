@@ -1,5 +1,11 @@
 {
   "values": [
-    "axontechnologies:thunderanium_chestplate"
+    "axontechnologies:thunderanium_chestplate",
+    "axontechnologies:red_thunderanium_chestplate",
+    "axontechnologies:dark_thunderanium_chestplate",
+    "axontechnologies:corruptinite_chestplate",
+    "axontechnologies:dark_thunderanium_axon_alloy_chestplate",
+    "axontechnologies:corruptinite_axon_alloy_chestplate",
+    "axontechnologies:axon_alloy_chestplate"
   ]
 }
