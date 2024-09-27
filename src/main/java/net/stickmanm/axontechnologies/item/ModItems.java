@@ -186,89 +186,89 @@ public class ModItems {
 
     public static final ArmorItem THUNDERANIUM_BOOTS = (ArmorItem) registerItem("thunderanium_boots",
             new ArmorItem(ModArmorMaterials.THUNDERANIUM, ArmorItem.Type.BOOTS, new Item.Settings().fireproof()
-                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(600))));
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
 
     //Red Thunderanium
     public static final ArmorItem RED_THUNDERANIUM_HELMET = (ArmorItem) registerItem("red_thunderanium_helmet",
-            new ArmorItem(ModArmorMaterials.RED_THUNDERANIUM, ArmorItem.Type.HELMET, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.RED_THUNDERANIUM, ArmorItem.Type.HELMET, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem RED_THUNDERANIUM_CHESTPLATE = (ArmorItem) registerItem("red_thunderanium_chestplate",
-            new ArmorItem(ModArmorMaterials.RED_THUNDERANIUM, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.RED_THUNDERANIUM, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem RED_THUNDERANIUM_LEGGINGS = (ArmorItem) registerItem("red_thunderanium_leggings",
-            new ArmorItem(ModArmorMaterials.RED_THUNDERANIUM, ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.RED_THUNDERANIUM, ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem RED_THUNDERANIUM_BOOTS = (ArmorItem) registerItem("red_thunderanium_boots",
-            new ArmorItem(ModArmorMaterials.RED_THUNDERANIUM, ArmorItem.Type.BOOTS, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.RED_THUNDERANIUM, ArmorItem.Type.BOOTS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
 
     //Dark Thunderanium
     public static final ArmorItem DARK_THUNDERANIUM_HELMET = (ArmorItem) registerItem("dark_thunderanium_helmet",
-            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM, ArmorItem.Type.HELMET, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM, ArmorItem.Type.HELMET, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem DARK_THUNDERANIUM_CHESTPLATE = (ArmorItem) registerItem("dark_thunderanium_chestplate",
-            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem DARK_THUNDERANIUM_LEGGINGS = (ArmorItem) registerItem("dark_thunderanium_leggings",
-            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM , ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM , ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem DARK_THUNDERANIUM_BOOTS = (ArmorItem) registerItem("dark_thunderanium_boots",
-            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM, ArmorItem.Type.BOOTS, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM, ArmorItem.Type.BOOTS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     //Corruptinite
     public static final ArmorItem CORRUPTINITE_HELMET = (ArmorItem) registerItem("corruptinite_helmet",
-            new ArmorItem(ModArmorMaterials.CORRUPTINITE, ArmorItem.Type.HELMET, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.CORRUPTINITE, ArmorItem.Type.HELMET, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem CORRUPTINITE_CHESTPLATE = (ArmorItem) registerItem("corruptinite_chestplate",
-            new ArmorItem(ModArmorMaterials.CORRUPTINITE, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.CORRUPTINITE, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem CORRUPTINITE_LEGGINGS = (ArmorItem) registerItem("corruptinite_leggings",
-            new ArmorItem(ModArmorMaterials.CORRUPTINITE , ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.CORRUPTINITE , ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem CORRUPTINITE_BOOTS = (ArmorItem) registerItem("corruptinite_boots",
-            new ArmorItem(ModArmorMaterials.CORRUPTINITE, ArmorItem.Type.BOOTS, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.CORRUPTINITE, ArmorItem.Type.BOOTS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
 
     //Axon Alloys
     //G
     public static final ArmorItem DARK_THUNDERANIUM_AXON_ALLOY_HELMET = (ArmorItem) registerItem("dark_thunderanium_axon_alloy_helmet",
-            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM_AXON_ALLOY, ArmorItem.Type.HELMET, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM_AXON_ALLOY, ArmorItem.Type.HELMET, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem DARK_THUNDERANIUM_AXON_ALLOY_CHESTPLATE = (ArmorItem) registerItem("dark_thunderanium_axon_alloy_chestplate",
-            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM_AXON_ALLOY, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM_AXON_ALLOY, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem DARK_THUNDERANIUM_AXON_ALLOY_LEGGINGS = (ArmorItem) registerItem("dark_thunderanium_axon_alloy_leggings",
-            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM_AXON_ALLOY , ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM_AXON_ALLOY , ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem DARK_THUNDERANIUM_AXON_ALLOY_BOOTS = (ArmorItem) registerItem("dark_thunderanium_axon_alloy_boots",
-            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM_AXON_ALLOY, ArmorItem.Type.BOOTS, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.DARK_THUNDERANIUM_AXON_ALLOY, ArmorItem.Type.BOOTS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     //C
     public static final ArmorItem CORRUPTINITE_AXON_ALLOY_HELMET = (ArmorItem) registerItem("corruptinite_axon_alloy_helmet",
-            new ArmorItem(ModArmorMaterials.CORRUPTINITE_AXON_ALLOY, ArmorItem.Type.HELMET, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.CORRUPTINITE_AXON_ALLOY, ArmorItem.Type.HELMET, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem CORRUPTINITE_AXON_ALLOY_CHESTPLATE = (ArmorItem) registerItem("corruptinite_axon_alloy_chestplate",
-            new ArmorItem(ModArmorMaterials.CORRUPTINITE_AXON_ALLOY, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.CORRUPTINITE_AXON_ALLOY, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem CORRUPTINITE_AXON_ALLOY_LEGGINGS = (ArmorItem) registerItem("corruptinite_axon_alloy_leggings",
-            new ArmorItem(ModArmorMaterials.CORRUPTINITE_AXON_ALLOY , ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.CORRUPTINITE_AXON_ALLOY , ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem CORRUPTINITE_AXON_ALLOY_BOOTS = (ArmorItem) registerItem("corruptinite_axon_alloy_boots",
-            new ArmorItem(ModArmorMaterials.CORRUPTINITE_AXON_ALLOY, ArmorItem.Type.BOOTS, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.CORRUPTINITE_AXON_ALLOY, ArmorItem.Type.BOOTS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     //A
     public static final ArmorItem AXON_ALLOY_HELMET = (ArmorItem) registerItem("axon_alloy_helmet",
-            new ArmorItem(ModArmorMaterials.AXON_ALLOY, ArmorItem.Type.HELMET, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.AXON_ALLOY, ArmorItem.Type.HELMET, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem AXON_ALLOY_CHESTPLATE = (ArmorItem) registerItem("axon_alloy_chestplate",
-            new ArmorItem(ModArmorMaterials.AXON_ALLOY, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.AXON_ALLOY, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem AXON_ALLOY_LEGGINGS = (ArmorItem) registerItem("axon_alloy_leggings",
-            new ArmorItem(ModArmorMaterials.AXON_ALLOY , ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.AXON_ALLOY , ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
     public static final ArmorItem AXON_ALLOY_BOOTS = (ArmorItem) registerItem("axon_alloy_boots",
-            new ArmorItem(ModArmorMaterials.AXON_ALLOY, ArmorItem.Type.BOOTS, new Item.Settings().fireproof()));
+            new ArmorItem(ModArmorMaterials.AXON_ALLOY, ArmorItem.Type.BOOTS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(Integer.MAX_VALUE))));
 
 
     //TOOLS

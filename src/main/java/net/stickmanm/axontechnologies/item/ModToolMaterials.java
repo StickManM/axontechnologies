@@ -10,14 +10,14 @@ import net.stickmanm.axontechnologies.datagen.ModTagList;
 
 public enum ModToolMaterials implements ToolMaterial {
     THUNDERANIUM(3031, 13f, 10.0f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_5, 25, Ingredient.ofItems(ModItems.THUNDERANIUM_INGOT)),
-    RED_THUNDERANIUM(6062, 20f, 12.5f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_6, 35, Ingredient.ofItems(ModItems.RED_THUNDERANIUM_INGOT)),
-    DARK_THUNDERANIUM(12124, 30f, 13.9f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_7, 55, Ingredient.ofItems(ModItems.DARK_THUNDERANIUM_INGOT)),
-    CORRUPTINITE(12124, 25f, 13.25f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_7, 50, Ingredient.ofItems(ModItems.CORRUPTINITE)),
-    CORRUPTINITE_AXON_ALLOY(24248, 45f, 22.5f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_10, 100, Ingredient.ofItems(ModItems.CORRUPTINITE)),
-    DARK_THUNDERANIUM_AXON_ALLOY(24248, 50f, 25.0f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_10, 115, Ingredient.ofItems(ModItems.DARK_THUNDERANIUM_INGOT)),
-    AXON_ALLOY(24248, 40f, 21.5f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_10, 90, Ingredient.ofItems(ModItems.AXON_ALLOY)),
+    RED_THUNDERANIUM(Integer.MAX_VALUE, 20f, 12.5f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_6, 35, Ingredient.ofItems(ModItems.RED_THUNDERANIUM_INGOT)),
+    DARK_THUNDERANIUM(Integer.MAX_VALUE, 30f, 13.9f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_7, 55, Ingredient.ofItems(ModItems.DARK_THUNDERANIUM_INGOT)),
+    CORRUPTINITE(Integer.MAX_VALUE, 25f, 13.25f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_7, 50, Ingredient.ofItems(ModItems.CORRUPTINITE)),
+    CORRUPTINITE_AXON_ALLOY(Integer.MAX_VALUE, 45f, 22.5f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_10, 100, Ingredient.ofItems(ModItems.CORRUPTINITE)),
+    DARK_THUNDERANIUM_AXON_ALLOY(Integer.MAX_VALUE, 50f, 25.0f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_10, 115, Ingredient.ofItems(ModItems.DARK_THUNDERANIUM_INGOT)),
+    AXON_ALLOY(Integer.MAX_VALUE, 40f, 21.5f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_10, 90, Ingredient.ofItems(ModItems.AXON_ALLOY)),
 
-    RAZZORIUM(2147483647, 1000f, 330282346638528860000000000000000000000f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_10, 250, Ingredient.ofItems(ModItems.RAZZORIUM));
+    RAZZORIUM(Integer.MAX_VALUE, 1000f, 330282346638528860000000000000000000000f, ModTagList.Blocks.INCORRECT_FOR_TOOL_LEVEL_10, 250, Ingredient.ofItems(ModItems.RAZZORIUM));
 
     private final int durability;
     private final float miningSpeedMultiplier, attackDamage;
